@@ -134,8 +134,8 @@ sonar.projectKey=YOUR_PROJECT_KEY
 Example:
 
 ```properties
-sonar.organization=joyboy2701
-sonar.projectKey=joyboy2701_ecs-python-app-frontend
+sonar.organization=wahaj-wahed
+sonar.projectKey=wahaj-wahed-sonarqube-poc
 ```
 
 These values are required in the `sonar-project.properties` file if you are using one.
@@ -245,8 +245,8 @@ repo-root/
 Example configuration:
 
 ```properties
-sonar.projectKey=joyboy2701_ecs-python-app-frontend
-sonar.organization=joyboy2701
+sonar.projectKey=wahaj-wahed_ecs-python-app-frontend
+sonar.organization=wahaj-wahed
 
 sonar.sources=api
 sonar.exclusions=**/node_modules/**,**/dist/**,**/build/**,**/coverage/**,**/.next/**,**/.git/**,**/__pycache__/**,**/*.pyc
@@ -307,8 +307,8 @@ Example:
     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   with:
     args: >
-      -Dsonar.projectKey=joyboy2701_ecs-python-app-frontend
-      -Dsonar.organization=joyboy2701
+      -Dsonar.projectKey=wahaj-wahed_ecs-python-app-frontend
+      -Dsonar.organization=wahaj-wahed
       -Dsonar.sources=api
       -Dsonar.exclusions=**/node_modules/**,**/dist/**,**/build/**,**/coverage/**,**/.next/**,**/.git/**,**/__pycache__/**,**/*.pyc
       -Dsonar.sourceEncoding=UTF-8
