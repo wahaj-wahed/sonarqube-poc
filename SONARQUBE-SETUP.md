@@ -135,7 +135,7 @@ Example:
 
 ```properties
 sonar.organization=wahaj-wahed
-sonar.projectKey=wahaj-wahed-sonarqube-poc
+sonar.projectKey=wahaj-wahed_sonarqube-poc
 ```
 
 These values are required in the `sonar-project.properties` file if you are using one.
