@@ -30,7 +30,6 @@ async def list_files():
 # ✅ Health check endpoint
 @app.get("/health")
 async def health():
-    # Optional: check if storage service is reachable
     try:
         async with httpx.AsyncClient(timeout=2) as client:
             r = await client.get(f"{STORAGE_SERVICE_URL}/health")
